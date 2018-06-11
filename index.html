@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Jon Test site</title>
+    <title>Jonathan Cochran | Portfolio</title>
     <link rel="stylesheet" href="resources/css/style.css">
     <script src="resources/js/script.js" charset="utf-8"></script>
   </head>
@@ -16,10 +16,10 @@
 
   <div id="navbar">
     <a class="active" href="javascript:void(0)">Home</a>
-    <a href="javascript:void(0)">About</a>
-    <a href="javascript:void(0)">Services</a>
-    <a href="javascript:void(0)">Projects</a>
-    <a href="javascript:void(0)">Contact</a>
+    <a href="#about">About</a>
+    <a href="#service">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contactme">Contact</a>
   </div>
   <div class="content">
   <h3>Sticky Navigation Example</h3>
@@ -30,25 +30,45 @@
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
   </div>
   <!--about section -->
-  <div class="About">
-    
+  <div class="About" id="about">
     <h1>About section</h1>
     <p>text here</p>
+    <p>skdlfkalkdfjlakjdflkadfncnlckfjldakfalfjadflkadfladfjaldjlakfjlxs</p>
   </div>
   <!-- services -->
-  <div class="About">
+  <div class="Service" id="service">
     <h1>Services section</h1>
     <p>text here</p>
   </div>
   <!--projects-->
-  <div class="About">
+  <div class="Projects" id="projects">
     <h1>Projects section</h1>
     <p>text here</p>
+  </div>
+  <div class="Contact" id="contactme">
+    <h1>Contact</h1>
+    <p>contact information</p>
   </div>
   <footer>
     <div class="container">
       &copy; Jonathan Cochran | Web and Mobile Developer
     </div>
   </footer>
+
+  <!-- js script -->
+  <script type="text/javascript">
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
   </body>
 </html>

@@ -1,11 +1,12 @@
 body {
   margin: 0;
   font-size: 18px;
+  background-color: #fff;
 }
 
 .header {
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 0;
   text-align: center;
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #2a4299;
   color: white;
 }
 
@@ -51,4 +52,14 @@ body {
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+footer {
+  background-color: #2a4299;
+  height: 7rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
