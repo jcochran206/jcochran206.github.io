@@ -6,14 +6,6 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="resources/js/script.js" type="text/javascript"></script>
-    <style>
-#map {
-  width: 100%;
-  height: 400px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-</style>
   </head>
   <body>
   <div class="header">
@@ -23,24 +15,20 @@
     <div class="message">
       <h1>Jonathan Cochran</h1>
       <p>Web and Mobile Developer</p>
-      <button type="button" name="button">Learn More</button>
+      <a href="#intro" class="btn btn-main">Learn More</a>
     </div>
   </div>
 
   <div id="navbar">
-    <a class="active" href="javascript:void(0)">Home</a>
+    <a class="active" href="#intro">Home</a>
     <a href="#about">About</a>
     <a href="#service">Services</a>
     <a href="#projects">Projects</a>
     <a href="#contactme">Contact</a>
   </div>
-  <div class="content">
-  <h3> Your Welcome</h3>
-  <p>here</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <div class="content" id="intro">
+    <h3> Your Welcome </h3>
+    <p>stuff goes here</p>
   </div>
   <!--about section -->
   <div class="About" id="about">
@@ -70,11 +58,40 @@
   </div>
   <!-- services -->
   <div class="Service" id="service">
-    <h1>Services section</h1>
-    <p>text here</p>
+    <div class="row">
+      <h2 class="title">Services</h2>
+    </div>
+    <div class="row">
+      <div class="column">
+      <div class="content">
+      <i class="fa fa-pencil"></i>
+      <h3>Design</h3>
+      <span>I will help build a design that will appeal to your audience</span>
+    </div>
+    </div>
+    <!--service 2-->
+    <div class="column">
+    <div class="content">
+    <i class="fa fa-code"></i>
+    <h3>Code</h3>
+    <span>I can translate your business processes into data structures and algorithms for your business</span>
+    </div>
+    </div>
+    <!--services 3-->
+    <div class="column">
+    <div class="content">
+    <i class="fa fa-connectdevelop"></i>
+    <h3>Web development</h3>
+    <span>I build responsive websites for a multitude of devices and platforms</span>
+    </div>
+    </div>
+
   </div>
   <!--projects-->
   <div class="Projects" id="projects">
+    <div class="row">
+      <h2 class="title"> Projects </h2>
+    </div>
     <div class="row">
       <div class="column">
     <div class="content">
@@ -113,7 +130,7 @@
   </div>
   <footer>
     <div class="container">
-      &copy; Jonathan Cochran | Web and Mobile Developer
+      &copy; 2018 Jonathan Cochran | Web and Mobile Developer
       <div class="social">
         <a href="#"><i class="fa fa-globe"></i></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -124,7 +141,7 @@
   </footer>
 
   <!-- js script -->
-  <script type="text/javascript">
+<script type="text/javascript">
   window.onscroll = function() {myFunction()};
 
   var navbar = document.getElementById("navbar");
@@ -137,6 +154,6 @@
       navbar.classList.remove("sticky");
     }
   }
-  </script>
+</script>
   </body>
 </html>
