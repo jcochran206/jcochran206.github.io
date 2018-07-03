@@ -51,7 +51,7 @@ body {
 
 }
 .btn:hover{
-  background: #e7e7e7;
+  background: #2a4299;
   color: white;
   width: 20rem;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #2a4299;
   color: black;
 }
 
@@ -254,6 +254,10 @@ body {
   color: white;
 }
 
+.Projects a:visited {
+  color: #555;
+}
+
 h1 {
     font-size: 1.8rem;
     word-break: break-all;
@@ -336,4 +340,7 @@ footer {
     text-decoration: none;
     border-radius: 50%;
     color: white;
+}
+.social a:visited {
+  color: white;
 }
