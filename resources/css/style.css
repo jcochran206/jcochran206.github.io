@@ -71,6 +71,7 @@ body {
   padding: 20px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-left: 50px;
 }
 
 #navbar a:hover {
@@ -99,11 +100,63 @@ body {
 }
 
 /*end of nav section */
-
+#intro {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #2a4299;
+  color: white;
+}
 
 /* about section */
 .About {
   background-color: #555;
+}
+
+#about .column {
+  float: left;
+  width: 45%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+#about .row .title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#about .card {
+  background-color: white;
+  color: #555;
+}
+
+@media screen and (max-width: 750px) {
+    #about .column {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    .message {
+      display: none;
+    }
+
+    .message .btn btn-main {
+      display: none;
+    }
+    #navbar a {
+      display: block;
+      float: center;
+    }
+}
+
+.panel {
+  color: white;
+  border: 1px solid white;
 }
 
 /* card section */
