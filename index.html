@@ -2,214 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Jonathan Cochran | Portfolio</title>
+    <title>Jonathan Cochran : Web and Mobile Developer</title>
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <script src="resources/js/script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
   </head>
   <body>
-  <div class="header">
-    <video autoplay muted loop class="myVideo">
-    <source src="resources/video/Merica/MP4/Merica.mp4" type="video/mp4">
-    </video>
-    <div class="message">
-      <h1>Jonathan Cochran</h1>
-      <p>Web and Mobile Developer</p>
-      <a href="#intro" class="btn btn-main">Learn More</a>
-    </div>
-  </div>
-
-  <div id="navbar">
-    <a class="active" href="#intro">Home</a>
-    <a href="#about">About</a>
-    <a href="#service">Services</a>
-    <a href="#projects">Projects</a>
-    <a href="#contactme">Contact</a>
-  </div>
-  <div class="content" id="intro">
-    <h3> Hello and welcome to my portfolio</h3>
-    <p>I am a developer that enjoys making apps and websites that make an impact for my customers. I am here to make your app or website a reality.  </p>
-  </div>
-  <!--about section -->
-  <div class="About" id="about">
-      <div class="row">
-        <h2 class="title">Education </h2>
-      </div>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="resources/img/UWTacoma.jpg"  class="imgcard" alt="UW">
-            <div class="container">
-              <h2>University of Washington</h2>
-              <p> <strong>Master’s in Geospatial Technologies</strong></p>
-              <p>2016</p>
-            </div>
-          </div>
+    <header>
+      <nav>
+        <div class="row">
+          <img src="resources/img/logo2.png" alt="logo" class="logo">
+          <ul class="main-nav">
+            <li> <a href="#"> About </a></li>
+            <li> <a href="#"> Services</a></li>
+            <li> <a href="#"> Projects</a></li>
+            <li> <a href="#"> Contact </a></li>
+          </ul>
         </div>
-
-        <div class="column">
-          <div class="card">
-            <img src="resources/img/wsu.jpg" class="imgcard" alt="WSU">
-            <div class="container">
-              <h2>Washington State University</h2>
-              <p> <strong>Bachelor’s in Digital Technology and Culture</strong> </p>
-              <p>2008</p>
-            </div>
-          </div>
-        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Geospatial Expert
+          <br>Say Hello to my maps</h1>
+        <a href="#" class="btn btn-full">Learn More</a>
+        <a href="#" class="btn btn-ghost">Contact Me</a>
       </div>
-      <div class="row">
-        <h2 class="title"> Languages : Frameworks </h2>
-      </div>
-      <div class="row">
-          <div class="content">
-          <h3>Languages</h3>
-          <i class="fab fa-html5"></i>
-          <span>HTML5</span>
-          <i class="fab fa-css3"></i>
-          <span>CSS3</span>
-          <i class="fab fa-js"></i>
-          <span>JavaScript</span>
-          <i class="fab fa-python"></i>
-          <span>Python</span>
-          <i class="fab fa-apple"></i>
-          <span>Swift</span>
-          </div>
+    </header>
 
-          <div class="content">
-          <h3>Frameworks</h3>
-          <i class="fab fa-node-js"></i>
-          <span>JQuery</span>
-          <i class="fab fa-python"></i>
-          <span>ArcPy</span>
-          <i class="fas fa-leaf"></i>
-          <span>Leaflet</span>
-          <i class="fab fa-js"></i>
-          <span>JSON</span>
-          </div>
-
-          <div class="content">
-          <h3>Other</h3>
-          <i class="fab fa-microsoft"></i>
-          <span>SQL</span>
-          <i class="fas fa-globe-americas"></i>
-          <span>ESRI Products</span>
-          <i class="fas fa-leaf"></i>
-          <span>MongoDB SQL</span>
-          <i class="fas fa-leaf"></i>
-          <span>QGIS</span>
-          </div>
-
-      </div>
-    </div>
-
-
-  </div>
-  <!-- services -->
-  <div class="Service" id="service">
-    <div class="row">
-      <h2 class="title">Services</h2>
-    </div>
-    <div class="row">
-      <div class="column">
-      <div class="content">
-      <i class="fas fa-pen-nib"></i>
-      <h3>Design</h3>
-      <span>I will help build a design that will appeal to your audience</span>
-    </div>
-    </div>
-    <!--service 2-->
-    <div class="column">
-    <div class="content">
-    <i class="fas fa-code"></i>
-    <h3>Code</h3>
-    <span>I can translate your business processes into data structures and algorithms for your business</span>
-    </div>
-    </div>
-    <!--services 3-->
-    <div class="column">
-    <div class="content">
-    <i class="far fa-file-code"></i>
-    <h3>Web development</h3>
-    <span>I build responsive websites for a multitude of devices and platforms</span>
-    </div>
-    </div>
-
-  </div>
-  <!--projects-->
-  <div class="Projects" id="projects">
-    <div class="row">
-      <h2 class="title"> Projects </h2>
-    </div>
-    <div class="row">
-      <div class="column">
-    <div class="content">
-      <img src="resources/img/Wise.png" alt="Wise" style="width:100%">
-      <h3>WISE</h3>
-      <p>The Washington Information Sharing Environment</p>
-      <div class="links">
-        <a href="https://wise.wamil.us/wmd/home/"><i class="fa fa-globe"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="resources/img/wrctcwa.png" alt="Lights" style="width:100%">
-      <h3>WRCTC</h3>
-      <p>This Western Regional Counterdrug Task Force Training Center contracted to conduct a website redesign and deployment </p>
-      <div class="links">
-        <a href="https://wrctcwa.com"><i class="fa fa-globe"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="resources/img/course-data.jpg" alt="Colmar" style="width:100%">
-      <h3>Colmar Academy</h3>
-      <p>This project part of my currilculum work and was built from scratch</p>
-      <div class="links">
-        <a href="https://jcochran206.github.io/ColmarAcademy/"><i class="fa fa-globe"></i></a>
-      </div>
-    </div>
-  </div>
-
-  </div>
-<!--  <div class="Contact" id="contactme">
-    <div class="row">
-      <div class="column">
-        <p>text</p>
-      </div>
-      <div class="column">
-        <div id="map">
-          map goes here
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <footer>
-    <div class="container">
-      &copy; 2018 Jonathan Cochran | Web and Mobile Developer
-      <div class="social">
-        <a href="https://jcochran206.github.io/"><i class="fa fa-globe"></i></i></a>
-        <a href="https://www.linkedin.com/in/jonathan-cochran-ms/"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- js script -->
-<script type="text/javascript">
-  window.onscroll = function() {myFunction()};
-
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-</script>
   </body>
 </html>
