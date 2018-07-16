@@ -42,6 +42,37 @@ h1 {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 180%;
+  word-spacing:2px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+h2:after{
+  display: block;
+  height: 2px;
+  background-color: #3498db;
+  content: " ";
+  width: 5rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 100%;
+  margin-bottom: .25rem;
+  color: #3498db;
+}
+
+/* paragraphs */
+
 /* buttons */
 
 .btn:link, .btn:visited {
@@ -128,4 +159,38 @@ header {
 
 .main-nav li a:hover, .main-nav li a:active {
   border-bottom: 2px solid #3498db;
+}
+
+/* ------------------- */
+/* About section      */
+/* ------------------- */
+
+.section-about {
+  background-color: #f4f4f4;
+  padding-top: 2rem;
+}
+
+.section-about h3 {
+  font-size: 150%;
+  font-weight: 300;
+
+}
+
+.box img {
+  width: 70%;
+  height: 25rem;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.narrative {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.narrative ul {
+  list-style: none;
 }
