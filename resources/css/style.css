@@ -67,6 +67,7 @@ h3 {
 
 h4 {
   font-size: 100%;
+  margin-top: .25rem;
   margin-bottom: .25rem;
   color: #3498db;
 }
@@ -198,7 +199,44 @@ header {
 /* ------------------- */
 /* Education section   */
 /* ------------------- */
+.education-section{
+  background-color: #e8e8e8;
+  padding-top: 2rem;
+}
 
+.ed-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5px;
+  list-style: none;
+}
+
+
+.ed-box img {
+  width: 100%;
+  height: auto;
+}
+
+.ed-box ul {
+  color: #0f52ba;
+  list-style: none;
+  text-align: left;
+  line-height: 1rem;
+}
+
+.icon-sm {
+  margin-right: .25rem;
+}
+
+.ed-narrative {
+  color: #555;
+}
+
+.ed-narrative p {
+  margin: 10px auto;
+
+}
 
 
 
