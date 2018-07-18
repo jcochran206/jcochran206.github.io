@@ -206,7 +206,7 @@ header {
 
 .ed-box {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: .25rem;
   width: 90%;
   margin-left: 5px;
   list-style: none;
@@ -216,17 +216,31 @@ header {
 .ed-box img {
   width: 100%;
   height: auto;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
 }
 
 .ed-box ul {
-  color: #0f52ba;
+  color: #3498db;
   list-style: none;
   text-align: left;
   line-height: 1rem;
+  font-weight: 300;
+  margin: auto;
+  font-size: 75%;
 }
 
+/* .ed-box ul:first-child{
+  font-size: 65%;
+} */
+
+
+
 .icon-sm {
-  margin-right: .25rem;
+  font-size: 30px;
+  margin: auto;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
 .ed-narrative {
@@ -235,6 +249,8 @@ header {
 
 .ed-narrative p {
   margin: 10px auto;
+  line-height: 1.5rem;
+  text-align: left;
 
 }
 
