@@ -236,6 +236,7 @@ header {
   margin: auto;
   padding-top: 5px;
   padding-right: 5px;
+  vertical-align: text-bottom;
 }
 
 .ed-narrative {
