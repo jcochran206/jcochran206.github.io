@@ -72,7 +72,21 @@ h4 {
   color: #3498db;
 }
 
-/* paragraphs */
+/* icons */
+.icon-sm {
+  font-size: 30px;
+  margin: auto;
+  padding-top: 5px;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.md-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
 
 /* buttons */
 
@@ -230,15 +244,6 @@ header {
   font-size: 75%;
 }
 
-
-.icon-sm {
-  font-size: 30px;
-  margin: auto;
-  padding-top: 5px;
-  padding-right: 5px;
-  vertical-align: text-bottom;
-}
-
 .ed-narrative {
   color: #555;
 }
@@ -293,13 +298,6 @@ header {
   color: #fff;
 }
 
-.md-icon {
-  font-size: 1.5rem;
-  margin-right: 10px;
-  margin-left: 10px;
-  vertical-align: text-bottom;
-}
-
 progress {
   -webkit-appearance: progress-bar;
   box-sizing: border-box;
@@ -307,6 +305,23 @@ progress {
   width: 50%;
   height: 1rem;
 }
+
+/* ------------------- */
+/* service section     */
+/* ------------------- */
+.service {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.service-box {
+  border: 1px solid #3498db;
+  text-align: center;
+  background-color: #3498db;
+  border-radius: 1rem;
+  color: #fff;
+}
+
 
 
 /* ------------------- */
