@@ -15,6 +15,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom:  1}
+.clearfix::after{
+  content: ' ';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* ------------------- */
 /* Reusable section */
 /* ------------------- */
@@ -317,10 +326,14 @@ progress {
 .service-box {
   border: 1px solid #3498db;
   text-align: center;
-  background-color: #3498db;
+  background-color: #969696;
   border-radius: 1rem;
   color: #fff;
 }
+
+/* ------------------- */
+/* project section     */
+/* ------------------- */
 
 
 
