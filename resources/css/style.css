@@ -244,6 +244,7 @@ header {
 }
 
 .ed-box ul {
+  display: block;
   color: #3498db;
   list-style: none;
   text-align: left;
@@ -296,7 +297,8 @@ header {
   opacity: 0.9;
 }
 
-.skill-box ul, li {
+.skill-box ul, .skill-box li {
+  display: block;
   list-style: none;
   vertical-align: middle;
   text-align: left;
@@ -334,8 +336,40 @@ progress {
 /* ------------------- */
 /* project section     */
 /* ------------------- */
+.project-section{
+  background-color: #e8e8e8;
+  padding-top: 2rem;
+}
+
+.prod-box {
+  background-color: #fff;
+  border-radius: .25rem;
+  width: 90%;
+  margin-left: 5px;
+  list-style: none;
+}
 
 
+.prod-box img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.prod-box ul, .prod-box li {
+  display: inline;
+  list-style: none;
+  vertical-align: middle;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.prod-box a:link, .prod-box a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+}
 
 /* ------------------- */
 /* footer section      */
