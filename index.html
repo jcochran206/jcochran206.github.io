@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Cochran : Web and Mobile Developer</title>
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
   </head>
   <body>
@@ -14,12 +17,13 @@
       <nav>
         <div class="row">
           <img src="resources/img/logo2.png" alt="logo" class="logo">
-          <ul class="main-nav">
+          <ul class="main-nav js--main-nav">
             <li> <a href="#about"> About </a></li>
             <li> <a href="#service"> Services</a></li>
             <li> <a href="#project"> Projects</a></li>
             <li> <a href="#"> Contact </a></li>
           </ul>
+          <a class="mobile-nav-icon js--nav-icon"> <ion-icon class="md-icon" name="reorder"></ion-icon></a>
         </div>
       </nav>
       <div class="hero-text-box">
@@ -274,6 +278,9 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
   </body>
 </html>

@@ -159,7 +159,7 @@ header {
   float: left;
   margin-top: 1rem;
 }
-
+/* main nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -184,6 +184,39 @@ header {
 .main-nav li a:hover, .main-nav li a:active {
   border-bottom: 2px solid #3498db;
 }
+
+/* mobile nav */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 3px;
+  cursor: pointer;
+  display: none;
+}
+
+/* sticky nav */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.90);
+  box-shadow: 0 2px 2px #fefefe;
+  z-index: 9999;
+}
+
+.main-nav {
+  margin-top: 1rem;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 15px 0;
+  color: #555;
+}
+
+.sticky .logo {display: none;}
+.sticky .logo-black { display: block;}
+
 
 /* ------------------- */
 /* About section      */
