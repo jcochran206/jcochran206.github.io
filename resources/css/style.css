@@ -313,6 +313,10 @@ header {
   text-align: left;
 }
 
+.skills h2 {
+  color: #fff;
+}
+
 .exp-box {
   border-left: 5px solid #3498db;
   margin-bottom: 30px;
@@ -342,6 +346,7 @@ header {
 .skill-box h4 {
   color: #fff;
 }
+
 
 progress {
   -webkit-appearance: progress-bar;
@@ -381,12 +386,14 @@ progress {
   width: 90%;
   margin-left: 5px;
   list-style: none;
+  height: 15rem;
+  
 }
 
 
 .prod-box img {
   width: 100%;
-  height: auto;
+  height: 12.5rem;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
 }
